@@ -1,0 +1,68 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+#board{
+	display: none;
+	border:3px solid black;
+	margin:0 auto;
+	max-width: 400px;
+	height: 400px;
+	background: rgb(0, 0, 0);
+	overflow: hidden;
+	transition: all 0.5s ease;
+	-webkit-animation: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.white{
+	width:50px;
+	height: 50px;
+	background: #fff;
+	float:left;
+	transition: all 0.5s ease;
+	-webkit-animation: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.black{
+	cursor: pointer;
+	width:50px;
+	height: 50px;
+	float:left;
+	background: url(../images/black.png);
+	transition: all 0.5s ease;
+	-webkit-animation: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.black.blue{
+	background: url(../images/blue.png);
+	background-size:cover;
+	transition: all 0.5s ease;
+	-webkit-animation: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+.black.red{
+	cursor: pointer;
+	background: url(../images/red.png);
+	background-size:cover;
+	transition: all 0.5s ease;
+	-webkit-animation: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+.black.checked{
+	background : url(../images/checked.png);
+	cursor:pointer;
+	transition: all 0.5s ease;
+	-webkit-animation: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
